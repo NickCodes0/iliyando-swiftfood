@@ -1,0 +1,47 @@
+* {
+    text-decoration: none;
+}
+
+a {
+    color: white;
+}
+
+.header {
+    background-color: white;
+}
+
+.fa-arrow-left.rotate-left,
+.fa-arrow-right.rotate {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card-box-button {
+    text-align: center;
+    color: white;
+}
+
+.card-box-button:hover {
+    color: white;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.card-price {
+    font-weight: bold;
+}
+
+@media only screen and (min-width: 769px) {
+    .fa-arrow-left.rotate-left {
+        transform: rotate(0deg);
+    }
+
+    .fa-arrow-right.rotate {
+        transform: rotate(0deg);
+    }
+}
